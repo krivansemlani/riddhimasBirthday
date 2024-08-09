@@ -12,6 +12,25 @@
 </head>
 
 <body>
+
+  <audio id="birthdayMusic" loop>
+    <source src="audio/audio.mp3" type="audio/mpeg" >
+  </audio>
+
+  <script>
+   
+    function startMusic() {
+      const music = document.getElementById('birthdayMusic');
+      music.play();
+    }
+  
+   
+    setTimeout(startMusic, 33500); 
+  </script>
+  
+
+
+  
   <div class="container">
     <div class="one">
       <h1 class="one">

@@ -232,6 +232,15 @@ body {
   cursor: pointer;
 }
 
+/* style/style.css */
+.lydia-dp {
+  width: 300px; /* Adjust width as needed */
+  height: auto; /* Maintains aspect ratio */
+  /* You can also use max-width if you want it to be responsive */
+  max-width: 100%;
+}
+
+
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
